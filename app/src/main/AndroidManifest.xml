@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fani.fitcraftgame" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomePage"
+            android:label="Welcome Page">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fani.fitcraftgame.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SignupPage"
+            android:label="Sign Up Page">
+         </activity>
+        <activity
+            android:name=".Compte"
+            android:label="users account">
+        </activity>
+        <activity
+            android:name=".EditprofilePage"
+            android:label="Edit your profile">
+         </activity>
+        <activity
+            android:name=".Policies"
+            android:label="Policies">
+        </activity>
+        <activity
+            android:name=".ProfileView"
+            android:label="View your profile">
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="Settings">
+        </activity>
+        <activity
+            android:name=".SharePage"
+            android:label="Share with your contacts">
+        </activity>
+    </application>
+
+</manifest>
